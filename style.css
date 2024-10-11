@@ -4,5 +4,13 @@
     --bg-color:#1E2A5E;
     --primary-color:#B5CFB7;
     --secundary-color:#021526;
-    font-family: "Londrina Sketch", sans-serif;
+    --font: "Londrina Sketch", sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+    
 }
