@@ -1,4 +1,4 @@
-const url =
+const url = 
 async function visualizarInformacoesGlobais(){
     const res = await fetch(url)
     const dados = await ReadableByteStreamController.json()
